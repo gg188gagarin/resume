@@ -1,0 +1,147 @@
+body {
+
+}
+.form_auth_block {
+    width: 700px;
+    height: 900px;
+    margin: 0 auto;
+    background: url(https://img3.akspic.ru/originals/3/6/7/2/5/152763-nirvana-bart_simpson-figu-telefon-zhidkiy-1080x1920.jpg);
+    background-size: cover;
+    border-radius: 4px;
+}
+
+.form_auth_block_content {
+    padding-top: 0%;
+
+}
+
+.form_auth_style {
+
+}
+
+.form_auth_block_head_text {
+    display: block;
+    text-align: center;
+    padding: 0px;
+    font-size: 20px;
+    font-weight: 400;
+    background: rgba(255, 255, 255, 0.44);
+    opacity: 0.7;
+}
+
+.form_auth_block label {
+    display: block;
+    text-align: center;
+    padding: 8px;
+    background: rgba(255, 255, 255, 0.86);
+    opacity: 0.7;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.form_auth_block input {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+
+.registernow {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    color: #00becf;
+}
+
+input:focus {
+    color: #000000;
+    border-radius: 10px;
+    border: 2px solid #436fea;
+}
+
+.form_auth_button {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+}
+
+::-webkit-input-placeholder {
+    color: #3f3f44;
+    padding-left: 10px;
+}
+
+::-moz-placeholder {
+    color: #3f3f44;
+    padding-left: 10px;
+}
+
+
+:-moz-placeholder {
+    color: #3f3f44;
+    padding-left: 10px;
+}
+
+:-ms-input-placeholder {
+    color: #3f3f44;
+    padding-left: 10px;
+}
+
+
+.agreement {
+    display: block;
+    text-align: center;
+    padding: 0px;
+    font-size: 15px;
+    font-weight: 400;
+    background: rgba(255, 255, 255, 0.44);
+    opacity: 0.9;
+}
+
+.stylemenu {}
+
+ul {
+    list-style: none; /*убираем маркеры списка*/
+    margin: 0; /*убираем отступы*/
+    padding-left: 0; /*убираем отступы*/
+    margin-top: 25px; /*делаем отступ сверху*/
+    background: rgba(45, 158, 136, 0.65); /*добавляем фон всему меню*/
+    height: 50px; /*задаем высоту*/
+}
+
+a {
+    text-decoration: none; /*убираем подчеркивание текста ссылок*/
+    background: rgba(45, 158, 136, 0.65); /*добавляем фон к пункту меню (заменив этот параметр, вы поменяете цвет всех пунктов меню)*/
+    color: #fff; /*меняем цвет ссылок*/
+    padding: 0px 15px; /*добавляем отступ*/
+    font-family: arial; /*меняем шрифт*/
+    line-height: 50px; /*ровняем меню по вертикали*/
+    display: block;
+    border-right: rgba(26, 94, 80, 0.65); /*добавляем бордюр справа*/
+    -moz-transition: all 0.3s 0.01s ease; /*делаем плавный переход*/
+    -o-transition: all 0.3s 0.01s ease;
+    -webkit-transition: all 0.3s 0.01s ease;
+
+}
+
+a:hover {
+    background: rgba(54, 245, 207, 0.42); /*добавляем эффект при наведении*/
+}
+
+li {
+    float: left; /*Размещаем список горизонтально для реализации меню*/
+}
+

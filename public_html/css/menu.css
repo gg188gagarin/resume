@@ -1,0 +1,120 @@
+ul {
+
+    display: flex;
+    flex-flow: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+
+
+    height: 50px; /*задаем высоту*/
+}
+
+
+
+#centeredmenu {
+    float:left;
+    width:100%;
+    margin: 0 ;
+    background: rgb(0, 207, 221);
+    border-bottom:4px solid #f1d26d;
+    overflow:hidden;
+    position:relative;
+}
+#centeredmenu ul {
+    clear:left;
+    float:left;
+    list-style:none;
+    background: none ;
+    margin:0;
+    padding:0;
+    position:relative;
+    left:50%;
+    text-align:center;
+}
+#centeredmenu ul li {
+    display:block;
+    float:left;
+    list-style:none;
+    margin-top: 0; /*     margin-top: 20%; /* Отступ сверху */
+    /*padding: 0;*/
+    position:relative;
+    right:50%;
+}
+#centeredmenu ul li a {
+    border-radius: 20px;
+    border: 0.5px solid rgb(0, 253, 253); /* Параметры рамки */
+    display:block;
+    margin:0 0 0 1px;
+    padding:3px 10px;
+    background: rgb(0, 253, 253);
+    color: #023d47;
+    text-decoration:none;
+    line-height:1.3em;
+}
+#centeredmenu ul li a:hover {
+    background: #b4f5f8;
+    color: #00a2b9;
+}
+#centeredmenu ul li a.active,
+#centeredmenu ul li a.active:hover {
+    color: #db2626;
+    background:#000;
+    font-weight:bold;
+}
+
+
+#centeredmenu2 {
+    float:left;
+    width:100%;
+    margin: 0 ;
+
+    overflow:hidden;
+    position:relative;
+}
+#centeredmenu2 ul {
+    clear:left;
+    float:left;
+    list-style:none;
+    background: none ;
+    margin:0;
+    padding:0;
+    position:relative;
+    left:50%;
+    text-align:center;
+}
+#centeredmenu2 ul li {
+    display:block;
+    float:left;
+    list-style:none;
+    margin-top: 0; /*     margin-top: 20%; /* Отступ сверху */
+    /*padding: 0;*/
+    position:relative;
+    right:50%;
+}
+#centeredmenu2 ul li a {
+    border-radius: 20px;
+    border: 2px solid rgb(243, 209, 120); /* Параметры рамки */
+    display:block;
+    margin:0 0 0 1px;
+    padding:3px 10px;
+    background: rgb(243, 209, 120);
+    color: #023d47;
+    text-decoration:none;
+    line-height:1.3em;
+}
+#centeredmenu2 ul li a:hover {
+    background: #b4f5f8;
+    color: #00a2b9;
+}
+#centeredmenu2 ul li a.active,
+#centeredmenu2 ul li a.active:hover {
+    color: #db2626;
+    background:#000;
+    font-weight:bold;
+}
+
+#bart_logo_mini {
+    background: rgb(0, 253, 253);
+}

@@ -1,0 +1,83 @@
+html{
+    height: 1000px;
+}
+body{
+    height: 100%;
+    background: url("https://fsa.zobj.net/crop.php?r=nopUgmu-sF3NKwMR8zgvU1RnrR91BFZyGPxe7rm4HYZPBHrKj0grDQkiHjwrkA03gudhPuYk-lrma4mR1XixGX3FLwv2CWEH85jjdYAkZwp9a59P5TcoXmSjeOiaEwE6fSUvtr5Dl6cKYR0m");
+}
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+    display: block;
+
+}
+form{
+    margin-top: 1em;
+
+}
+.row{
+    display: flex;
+    margin-bottom: 2em;
+}
+.block_label{
+    width: 40%;
+    font-family: 'Teko', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.block_input{
+    width: 80%;
+    padding: 0 0 0 0;
+
+}
+#name{
+    box-sizing: border-box;
+    width: 100%;
+}
+#email{
+    box-sizing: border-box;
+    width: 100%;
+}
+#password{
+    box-sizing: border-box;
+    width: 100%;
+}
+#birth{
+    box-sizing: border-box;
+    width: 100%;
+}
+#hobby{
+    box-sizing: border-box;
+    width: 100%;
+}
+#words{
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.border_type{
+    border: 1px solid;
+}
+.blue_button{
+    border-radius: 5px;
+    background-color: rgb(0, 206, 218);
+    color: white;
+}
+
+.yellow_button {
+    border-radius: 5px;
+    background-color: rgb(253, 217, 55);
+    color: white;
+
+}
+
+
+.button_without_border{
+    background-color: white;
+    border: none;
+    color: rgba(16, 73, 62, 0.65);
+}
+
+.color_blue {
+    color: #006874;
+}
