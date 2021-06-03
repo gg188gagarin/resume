@@ -1,6 +1,9 @@
+body {
+
+}
 .form_auth_block {
     width: 700px;
-    height: 700px;
+    height: 800px;
     margin: 0 auto;
     background: url(https://img3.akspic.ru/originals/3/6/7/2/5/152763-nirvana-bart_simpson-figu-telefon-zhidkiy-1080x1920.jpg);
     background-size: cover;
@@ -8,19 +11,12 @@
 }
 
 .form_auth_block_content {
-    padding-top: 10%;
+    padding-top: 20%;
 
 }
 
 .form_auth_style {
 
-}
-
-
-
-.inputcolor {
-    color: #007986;
-    background-color: rgba(231, 248, 252, 0.53);
 }
 
 .form_auth_block_head_text {
@@ -36,7 +32,7 @@
 .form_auth_block label {
     display: block;
     text-align: center;
-    padding: 8px;
+    padding: 10px;
     background: rgba(255, 255, 255, 0.44);
     opacity: 0.7;
     font-weight: 600;
@@ -59,7 +55,7 @@
     display: block;
     margin: 0 auto;
     width: 50%;
-    height: 35px;
+    height: 45px;
     border-radius: 10px;
     border: none;
     outline: none;
@@ -130,7 +126,7 @@ ul {
 a {
     text-decoration: none; /*убираем подчеркивание текста ссылок*/
     background: rgba(45, 158, 136, 0.65); /*добавляем фон к пункту меню (заменив этот параметр, вы поменяете цвет всех пунктов меню)*/
-    color: #b31111; /*меняем цвет ссылок*/
+    color: #fff; /*меняем цвет ссылок*/
     padding: 0px 15px; /*добавляем отступ*/
     font-family: arial; /*меняем шрифт*/
     line-height: 50px; /*ровняем меню по вертикали*/

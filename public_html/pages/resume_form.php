@@ -5,6 +5,7 @@
     <title>Resume Form</title>
     <link rel="stylesheet" href="../css/res_reg_form(by%20login).css">
     <link rel="stylesheet" href="../css/menu.css">
+
 </head>
 <body>
 
@@ -14,19 +15,19 @@
         <p class="form_auth_block_head_text">Update your resume</p>
         <form class="form_auth_style" action="../functionaity%20/res_expo_tobd.php" method="POST">
             <label>Phone number</label>
-            <input type="text" name="phone_number" placeholder="Enter your phone number " required>
+            <input  class="inputcolor" type="text" name="phone_number" placeholder="Enter your phone number " required>
             <label>Email</label>
-            <input type="email" name="email" placeholder="Enter your email " required>
+            <input  class="inputcolor" type="email" name="email" placeholder="Enter your email " required>
             <label>Location</label>
-            <input type="text" name="location" placeholder="Enter your Location" required>
+            <input  class="inputcolor" type="text" name="location" placeholder="Enter your Location" required>
             <label>Personal website</label>
-            <input type="text" name="website" placeholder="Enter your Website" required>
+            <input  class="inputcolor" type="text" name="website" placeholder="Enter your Website" required>
             <label>Education</label>
-            <input type="text" name="education" placeholder="Enter your Education" required>
+            <input  class="inputcolor" type="text" name="education" placeholder="Enter your Education" required>
             <label>Skills</label>
-            <input type="text" name="skills" placeholder="Enter your Skills" required>
+            <input  class="inputcolor" type="text" name="skills" placeholder="Enter your Skills" required>
             <label>The number id of the resume update you want to select ( optional )</label>
-            <input type="text" name="nomber_res" placeholder="Enter your id" required>
+            <input  class="inputcolor" type="text" name="nomber_res" placeholder="Enter your id" required>
             <p></p>
             <button class="registernow" type="submit" name="form_auth_submit" > Update
             </button>

@@ -19,6 +19,11 @@ body {
 
 }
 
+.inputcolor {
+    color: #007986;
+    background-color: rgba(234, 246, 250, 0.75);
+}
+
 .form_auth_block_head_text {
     display: block;
     text-align: center;

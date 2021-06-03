@@ -19,6 +19,13 @@ body {
 
 }
 
+
+.inputcolor {
+    color: #007986;
+    background-color: rgba(231, 248, 252, 0.51);
+}
+
+
 .form_auth_block_head_text {
     display: block;
     text-align: center;
@@ -59,7 +66,8 @@ body {
     border-radius: 10px;
     border: none;
     outline: none;
-    color: #00becf;
+    color: #007986;
+    background-color: #99f4f8;
 }
 
 input:focus {

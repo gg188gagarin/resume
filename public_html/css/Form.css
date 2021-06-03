@@ -15,6 +15,12 @@ form{
     margin-top: 1em;
 
 }
+
+.inputcolor {
+    color: #5c4b14;
+    background-color: rgba(245, 224, 147, 0.56);
+}
+
 .row{
     display: flex;
     margin-bottom: 2em;
@@ -73,11 +79,11 @@ form{
 
 
 .button_without_border{
-    background-color: white;
+    background-color: rgb(253, 217, 55);
     border: none;
-    color: rgba(16, 73, 62, 0.65);
+    color: #79611a;
 }
 
 .color_blue {
-    color: #006874;
+    color: #79611a;
 }

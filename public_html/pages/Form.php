@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Form</title>
     <link rel="stylesheet" href="../css/Form.css">
-    <link rel="stylesheet" href="../css/menu.css">
+
 </head>
 <body>
 
@@ -16,7 +16,7 @@
                 <label class="color_blue" for="name">Name</label>
             </div>
             <div class="block_input">
-                <input type="text" id="name" name="name"/>
+                <input class="inputcolor"  type="text" id="name" name="name"/>
             </div>
         </div>
         <div class="row">
@@ -24,7 +24,7 @@
                 <label class="color_blue" for="email">Email</label>
             </div>
             <div class="block_input">
-                <input type="email" id="email" name="email"/>
+                <input class="inputcolor"   type="email" id="email" name="email"/>
             </div>
         </div>
         <div class="row">
@@ -32,7 +32,7 @@
                 <label  class="color_blue" for="password">Password</label>
             </div>
             <div class="block_input">
-                <input type="password" id="password" name="password"/>
+                <input  class="inputcolor"  type="password" id="password" name="password"/>
             </div>
         </div>
         <div class="row">
@@ -40,8 +40,8 @@
                 <label class="color_blue"  id="gender_name">Gender</label>
             </div>
             <div class="block_input">
-                <input type="radio" id="gender_name" value="man" checked name="gender"/>Male
-                <input type="radio" id="gender_name" value="man" checked name="gender"/>Female
+                <input  class="inputcolor"  type="radio" id="gender_name" value="man" checked name="gender"/>Male
+                <input  class="inputcolor"  type="radio" id="gender_name" value="man" checked name="gender"/>Female
             </div>
         </div>
         <div class="row">
@@ -49,7 +49,7 @@
                 <label class="color_blue" for="birth">Birth Date</label>
             </div>
             <div class="block_input">
-                <input type="date" id="birth" name="birth"/>
+                <input  class="inputcolor"  type="date" id="birth" name="birth"/>
             </div>
         </div>
         <div class="row">
@@ -57,24 +57,24 @@
                 <label class="color_blue" for="contacts">Contacts</label>
             </div>
             <div class="block_input">
-                <select id="socials" name="socials">
-                    <option value="insta">Instagram</option>
-                    <option value="twitter">Twitter</option>
-                    <option value="linkedin">LinkedIn</option>
-                    <option value="telegram">Telegram</option>
+                <select id="socials" class="inputcolor" name="socials">
+                    <option  class="inputcolor"  value="insta">Instagram</option>
+                    <option  class="inputcolor"  value="twitter">Twitter</option>
+                    <option  class="inputcolor"  value="linkedin">LinkedIn</option>
+                    <option  class="inputcolor"  value="telegram">Telegram</option>
                 </select>
-                <input type="text" id="contacts" name="contacts"/>
+                <input  class="inputcolor"  type="text" id="contacts" name="contacts"/>
                 <button class="button_without_border" type="reset">Delete</button>
                 <br>
                 <p>
-                    <select id="ssocials" name="ssocials">
-                        <option value="Other">Other</option>
-                        <option value="boys">boys</option>
-                        <option value="mamzel">mamzel</option>
-                        <option value="ded">ded</option>
+                    <select id="ssocials"  class="inputcolor" name="ssocials">
+                        <option  class="inputcolor"  value="Other">Other</option>
+                        <option  class="inputcolor"  value="boys">boys</option>
+                        <option  class="inputcolor"  value="mamzel">mamzel</option>
+                        <option  class="inputcolor"  value="ded">ded</option>
                     </select>
-                    <input type="text" id="contacts" name="contacts"/>
-                    <input type="text" id="contacts" name="contacts"/>
+                    <input  class="inputcolor"  type="text" id="contacts" name="contacts"/>
+                    <input  class="inputcolor"  type="text" id="contacts" name="contacts"/>
                     <button class="button_without_border" type="reset">Delete</button>
                     <br>
                     <button class="blue_button" type="submit">Save</button>
@@ -89,17 +89,17 @@
                 <label class="color_blue" for="photo">Photo</label>
             </div>
             <div class="block_input border_type">
-                <input type="file" id="photo" name="photo"/>
+                <input  class="inputcolor"  type="file" id="photo" name="photo"/>
             </div>
         </div>
         <div class="row">
             <div class="block_label">
                 <label class="color_blue" for="hobby">Hobbies</label>
             </div>
-            <select name="select" size="3" multiple>
-                <option value="s1">Movies</option>
-                <option value="s2">Music</option>
-                <option value="s3">Photography</option>
+            <select name="select"  class="inputcolor"  size="3" multiple>
+                <option  class="inputcolor"  value="s1">Movies</option>
+                <option class="inputcolor"   value="s2">Music</option>
+                <option  class="inputcolor"  value="s3">Photography</option>
                 n>
                 <option value="s4">Basketball</option>
             </select>
@@ -119,7 +119,7 @@
                 <label></label>
             </div>
             <div class="block_input">
-                <input type="checkbox" name="agreement"/>Agreement
+                <input  class="inputcolor"  type="checkbox" name="agreement"/>Agreement
             </div>
         </div>
         <div class="row">
@@ -127,7 +127,7 @@
                 <label></label>
             </div>
             <div class="block_input">
-                <input class="blue_button" name="print" type="button" value="Update profile"/>
+                <input  class="inputcolor"  class="blue_button" name="print" type="button" value="Update profile"/>
                 <button   class="yellow_button" type="submit">Save</button>
             </div>
         </div>
